@@ -8,6 +8,7 @@ module.exports = {
     rabbitMQRoutingKey: "rocketseat-sample",
 
     //Dead Letter
+    rabbitMQDeadLetterQueue: "rocketseat-sample-dead-letter.queue",
     rabbitMQDeadLetterExchange: "rocketseat-sample-dead-letter.exchange",
     rabbitMQDeadLetterRoutingKey: "rocketseat-sample-dead-letter"
 }
